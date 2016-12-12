@@ -1,6 +1,8 @@
-# SSH storage driver for CoreCluster
-This is SSH storage driver for CoreCluster cloud.
+# SSH driver for CoreCluster
+This is SSH driver for CoreCluster cloud. Install this package to
+enable SSH driver support in your cloud, both on the management machine and
+on all nodes.
 
 # Configuration
-Update agents.py in CoreCluster to provide proper support of node, image and
-storage tasks. Update /etc/corenetwork/config.py and enable all ssh drivers on nodes and management machine.
+Update /etc/corenetwork/config.py and add new entry to the APPS list:
+    corecluster-storage-ssh.app

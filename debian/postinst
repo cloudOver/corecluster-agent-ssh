@@ -20,7 +20,7 @@ set -e
 
 case "$1" in
     configure)
-    echo "coreCluster: Installing corecluster-sheepdog"
+    echo "coreCluster: Installing corecluster-storage-ssh"
     ;;
 
     abort-upgrade|abort-remove|abort-deconfigure)
